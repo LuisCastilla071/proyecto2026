@@ -1,0 +1,89 @@
+/* src/App.css o src/index.css - Centrado 100% garantizado */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  line-height: 1.5;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-center {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #1e3a8a;
+}
+
+.form-group {
+  margin-bottom: 1.6rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+}
+
+.form-group input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.form-group input::placeholder {
+  color: #94a3b8;
+}
+
+.total-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #ecfdf5;
+  border-radius: 12px;
+  border: 1px solid #a7f3d0;
+}
+
+.total-section h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #065f46;
+}
